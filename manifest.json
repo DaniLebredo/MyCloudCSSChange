@@ -1,10 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "WDMyCloud v2.x CSS Changer - Version 2",
+  "name": "MyCloudCSSChange",
   "description": "This extension fixes the hidden buttons for shutdown.",
-  "version": "2.0",
+  "version": "4.0",
+  "icons":{
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "icon48.png"
   },
   "permissions": [
     "activeTab"
